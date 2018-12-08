@@ -29,7 +29,6 @@ public class HeadView extends LinearLayout {
     private OnRightClickListener onRightClickListener;
     private LinearLayout llLeft, llRight;
     private LayoutInflater inflater;
-
     public HeadView(Context context) {
         super(context);
     }
