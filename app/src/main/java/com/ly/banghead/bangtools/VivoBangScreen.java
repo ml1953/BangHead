@@ -1,4 +1,4 @@
-package com.ypz.bangscreentools;
+package com.ly.banghead.bangtools;
 
 import android.content.Context;
 import android.graphics.Rect;
@@ -16,7 +16,8 @@ import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.ypz.bangscreentools.BangScreenTools.TAG;
+import static com.ly.banghead.bangtools.BangScreenTools.TAG;
+
 
 /**
  * Created by 易庞宙 on 2018 2018/10/16 16:58

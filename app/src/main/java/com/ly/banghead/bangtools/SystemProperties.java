@@ -1,10 +1,11 @@
-package com.ypz.bangscreentools;
+package com.ly.banghead.bangtools;
 
 import android.util.Log;
 
 import java.lang.reflect.Method;
 
-import static com.ypz.bangscreentools.BangScreenTools.TAG;
+import static com.ly.banghead.bangtools.BangScreenTools.TAG;
+
 
 /**
  * Created by 易庞宙 on 2018 2018/10/16 11:21

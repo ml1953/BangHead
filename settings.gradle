@@ -1,1 +1,1 @@
-include ':app',':bangscreentools'
+include ':app'
