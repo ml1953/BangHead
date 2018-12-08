@@ -14,58 +14,9 @@
     <list default="true" id="0482ab44-2193-4d96-be34-3bd592a7f88e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_common_1_1_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_runtime_1_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_common_1_1_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_27_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_27_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_27_1_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_27_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_27_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_27_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_27_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_27_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_core_3_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_idling_resource_3_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_monitor_1_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_runner_1_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_2_0_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_javawriter_2_1_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_inject_javax_inject_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sf_kxml_kxml2_2_3_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_integration_1_3_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bangscreentools/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bangscreentools/bangscreentools.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bangscreentools/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bangscreentools/proguard-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bangscreentools/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bangscreentools/src/main/java/com/ypz/bangscreentools/BangScreenSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ly/banghead/bangtools/BangScreenSupport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bangscreentools/src/main/java/com/ypz/bangscreentools/BangScreenTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ly/banghead/bangtools/BangScreenTools.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bangscreentools/src/main/java/com/ypz/bangscreentools/HuaWeiBangScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ly/banghead/bangtools/HuaWeiBangScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bangscreentools/src/main/java/com/ypz/bangscreentools/MiuiBangScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ly/banghead/bangtools/MiuiBangScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bangscreentools/src/main/java/com/ypz/bangscreentools/OppoBangScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ly/banghead/bangtools/OppoBangScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bangscreentools/src/main/java/com/ypz/bangscreentools/PBangScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ly/banghead/bangtools/PBangScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bangscreentools/src/main/java/com/ypz/bangscreentools/PhoneManufacturersJudgeTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ly/banghead/bangtools/PhoneManufacturersJudgeTools.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bangscreentools/src/main/java/com/ypz/bangscreentools/SystemProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ly/banghead/bangtools/SystemProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bangscreentools/src/main/java/com/ypz/bangscreentools/VivoBangScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ly/banghead/bangtools/VivoBangScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bangscreentools/src/main/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -91,8 +42,8 @@
       <file leaf-file-name="OppoBangScreen.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ly/banghead/bangtools/OppoBangScreen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
+            <state relative-caret-position="414">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,8 +54,8 @@
       <file leaf-file-name="BangScreenSupport.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ly/banghead/bangtools/BangScreenSupport.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <state relative-caret-position="138">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -115,8 +66,8 @@
       <file leaf-file-name="BangScreenTools.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ly/banghead/bangtools/BangScreenTools.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+            <state relative-caret-position="92">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -124,8 +75,8 @@
       <file leaf-file-name="HuaWeiBangScreen.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ly/banghead/bangtools/HuaWeiBangScreen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="32" column="46" lean-forward="true" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
+            <state relative-caret-position="46">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -136,8 +87,8 @@
       <file leaf-file-name="MiuiBangScreen.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ly/banghead/bangtools/MiuiBangScreen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="57" column="25" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="25" />
+            <state relative-caret-position="391">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -148,8 +99,8 @@
       <file leaf-file-name="SystemProperties.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ly/banghead/bangtools/SystemProperties.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="49" column="19" lean-forward="true" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+            <state relative-caret-position="207">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -157,14 +108,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VivoBangScreen.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="VivoBangScreen.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ly/banghead/bangtools/VivoBangScreen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1863">
-              <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
+            <state relative-caret-position="897">
+              <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="23" column="60" lean-forward="true" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -173,7 +133,7 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ly/banghead/bangtools/PBangScreen.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
-              <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -184,17 +144,8 @@
       <file leaf-file-name="PhoneManufacturersJudgeTools.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ly/banghead/bangtools/PhoneManufacturersJudgeTools.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-161">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="92">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -387,6 +338,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileDebugJavaWithJavac" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Installs the 'archives' artifacts into the local Maven repository." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="install" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -1147,6 +1103,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="compileDebugJavaWithJavac" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Installs the 'archives' artifacts into the local Maven repository." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="install" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
@@ -2968,17 +2929,21 @@
       <list>
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/settings.gradle" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/ly/banghead/bangtools/SystemProperties.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/ly/banghead/view/HeadView.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/ly/banghead/bangtools/BangScreenSupport.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/ly/banghead/bangtools/BangScreenTools.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ly/banghead/bangtools/HuaWeiBangScreen.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ly/banghead/bangtools/MiuiBangScreen.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ly/banghead/bangtools/OppoBangScreen.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ly/banghead/bangtools/PBangScreen.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/ly/banghead/bangtools/PhoneManufacturersJudgeTools.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/ly/banghead/bangtools/SystemProperties.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ly/banghead/bangtools/VivoBangScreen.java" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-7" />
     <option name="width" value="1934" />
     <option name="height" value="1047" />
@@ -3065,6 +3030,18 @@
               <item name="ly" type="462c0819:PsiDirectoryNode" />
               <item name="banghead" type="462c0819:PsiDirectoryNode" />
               <item name="bangtools" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BangHead" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BangHead" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ly" type="462c0819:PsiDirectoryNode" />
+              <item name="banghead" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -3238,7 +3215,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="Android Profiler" show_stripe_button="false" />
       <window_info id="Build Variants" side_tool="true" />
@@ -3362,17 +3338,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ly/banghead/view/HeadView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="391">
+          <caret line="79" column="26" selection-start-line="79" selection-start-column="26" selection-end-line="79" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ly/banghead/bangtools/BangScreenSupport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        <state relative-caret-position="138">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -3381,15 +3360,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ly/banghead/bangtools/BangScreenTools.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        <state relative-caret-position="92">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ly/banghead/bangtools/HuaWeiBangScreen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="32" column="46" lean-forward="true" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
+        <state relative-caret-position="46">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -3398,8 +3377,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ly/banghead/bangtools/MiuiBangScreen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="57" column="25" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="25" />
+        <state relative-caret-position="391">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -3408,8 +3387,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ly/banghead/bangtools/OppoBangScreen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
+        <state relative-caret-position="414">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -3419,7 +3398,7 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ly/banghead/bangtools/PBangScreen.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -3428,15 +3407,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ly/banghead/bangtools/PhoneManufacturersJudgeTools.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-161">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="92">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ly/banghead/bangtools/SystemProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="49" column="19" lean-forward="true" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+        <state relative-caret-position="207">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -3445,11 +3424,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ly/banghead/bangtools/VivoBangScreen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1863">
-          <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
+        <state relative-caret-position="897">
+          <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="23" column="60" lean-forward="true" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
         </state>
       </provider>
     </entry>
