@@ -17,14 +17,19 @@ import android.widget.TextView;
 import com.ly.banghead.R;
 import com.ly.banghead.bangtools.BangScreenTools;
 import com.ly.banghead.listener.OnBackClickListener;
+import com.ly.banghead.listener.OnCustomItemAddListener;
+import com.ly.banghead.listener.OnItemAddListener;
 import com.ly.banghead.listener.OnRightClickListener;
 
 public class HeadView extends LinearLayout {
-    boolean multi = false;//是否有多个
-    int headRightSrc = -1;
-    String headRightStr = "";
+    private boolean leftMutli, rightMutli = false;//是否有多个
+    private int headRightSrc = -1;
+    private String headRightStr = "";
     private OnBackClickListener onBackClickListener;
     private OnRightClickListener onRightClickListener;
+    private LinearLayout llLeft, llRight;
+    private LayoutInflater inflater;
+
     public HeadView(Context context) {
         super(context);
     }
@@ -35,30 +40,70 @@ public class HeadView extends LinearLayout {
 
     public HeadView(final Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
-        LayoutInflater inflater = LayoutInflater.from(context);
+        inflater = LayoutInflater.from(context);
         View view = inflater.inflate(R.layout.banghead_layout, null);
         RelativeLayout rlHead = view.findViewById(R.id.rl_head);
-        ImageView ivBack = view.findViewById(R.id.iv_back);
         TextView tvTitle = view.findViewById(R.id.tv_title);
-        LinearLayout llRight = view.findViewById(R.id.ll_right);
+        llLeft = view.findViewById(R.id.ll_left);
+        llRight = view.findViewById(R.id.ll_right);
         TypedArray a = context.getTheme().obtainStyledAttributes(attrs, R.styleable.BangHead, defStyleAttr, 0);
         String title = a.getString(R.styleable.BangHead_head_title);//标题
-        int headBgSrc=a.getInt(R.styleable.BangHead_head_bg_src,R.color.white);
-        multi = a.getBoolean(R.styleable.BangHead_head_right_multi, false);//是否有多个
+        int headBgSrc = a.getInt(R.styleable.BangHead_head_bg_src, R.color.white);
+
+        leftMutli = a.getBoolean(R.styleable.BangHead_head_left_multi, false);//是否有多个
+        rightMutli = a.getBoolean(R.styleable.BangHead_head_right_multi, false);//是否有多个
+
         int headBackSrc = a.getInt(R.styleable.BangHead_head_back_src, R.drawable.back_w_d);
+        int headBackColor = a.getInt(R.styleable.BangHead_head_back_color, R.color.white);
+        String headBackTitle = a.getString(R.styleable.BangHead_head_back_title);
+
         int headTitleColor = a.getInt(R.styleable.BangHead_head_back_src, R.color.white);
         int headRightColor = a.getInt(R.styleable.BangHead_head_back_src, R.color.white);
+
         headRightSrc = a.getInt(R.styleable.BangHead_head_right_src, -1);
         headRightStr = a.getString(R.styleable.BangHead_head_right_title);
-        ivBack.setImageResource(headBackSrc);
+
         tvTitle.setText(title);
         tvTitle.setTextColor(headTitleColor);
         rlHead.setBackground(getResources().getDrawable(headBgSrc));
-        if (!multi) {
-            LinearLayout item = (LinearLayout) inflater.inflate(R.layout.head_right_item, null);
+        if (!leftMutli) {
+            LinearLayout item = (LinearLayout) inflater.inflate(R.layout.head_horizontal_item, null);
             llRight.addView(item);
-            ImageView ivRight = item.findViewById(R.id.iv_right);
-            TextView tvRight = item.findViewById(R.id.tv_right);
+            ImageView ivBack = item.findViewById(R.id.iv_image);
+            TextView tvBack = item.findViewById(R.id.tv_title);
+
+            ivBack.setImageResource(headRightSrc);
+            ivBack.setOnClickListener(new OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    if (onBackClickListener != null) {
+                        onBackClickListener.onBackClick(v);
+                    } else {
+                        if (context instanceof Activity) {
+                            ((Activity) context).finish();
+                        }
+                    }
+                }
+            });
+            if (!TextUtils.isEmpty(headBackTitle)) {
+                tvBack.setText(headBackTitle);
+                tvBack.setTextColor(headBackColor);
+            }
+            item.setOnClickListener(new OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    if (onRightClickListener != null) {
+                        onRightClickListener.onRightClick(v);
+                    }
+                }
+            });
+
+        }
+        if (!rightMutli) {
+            LinearLayout item = (LinearLayout) inflater.inflate(R.layout.head_vertical_item, null);
+            llRight.addView(item);
+            ImageView ivRight = item.findViewById(R.id.iv_image);
+            TextView tvRight = item.findViewById(R.id.tv_title);
             if (headRightSrc != -1) {
                 ivRight.setImageResource(headRightSrc);
             }
@@ -69,7 +114,7 @@ public class HeadView extends LinearLayout {
             item.setOnClickListener(new OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    if (onRightClickListener!=null){
+                    if (onRightClickListener != null) {
                         onRightClickListener.onRightClick(v);
                     }
                 }
@@ -96,18 +141,7 @@ public class HeadView extends LinearLayout {
             layoutParams.height = height;
             rlHead.setLayoutParams(layoutParams);
         }
-        ivBack.setOnClickListener(new OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (onBackClickListener!=null){
-                    onBackClickListener.onBackClick(v);
-                }else {
-                    if (context instanceof Activity){
-                        ((Activity) context).finish();
-                    }
-                }
-            }
-        });
+
 
         a.recycle();
     }
@@ -123,5 +157,30 @@ public class HeadView extends LinearLayout {
 
     public void setOnRightClickListener(OnRightClickListener onRightClickListener) {
         this.onRightClickListener = onRightClickListener;
+    }
+
+    public void addLeftItem(OnItemAddListener listener) {
+        View item = inflater.inflate(R.layout.head_horizontal_item, null);
+        llLeft.addView(item);
+        TextView tv=item.findViewById(R.id.tv_title);
+        ImageView im=item.findViewById(R.id.iv_image);
+        listener.onItemAdd(tv,im);
+    }
+
+    public void addLeftItem(View view, OnCustomItemAddListener listener) {
+        llLeft.addView(view);
+        listener.onItemAdd(view);
+    }
+    public void addRightItem(OnItemAddListener listener) {
+        View item = inflater.inflate(R.layout.head_vertical_item, null);
+        llRight.addView(item);
+        TextView tv=item.findViewById(R.id.tv_title);
+        ImageView im=item.findViewById(R.id.iv_image);
+        listener.onItemAdd(tv,im);
+    }
+
+    public void addRightItem(View view, OnCustomItemAddListener listener) {
+        llRight.addView(view);
+        listener.onItemAdd(view);
     }
 }

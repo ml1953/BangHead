@@ -4,9 +4,12 @@
         <attr name="head_title" format="string" />
         <attr name="head_title_color" format="dimension" />
         <attr name="head_back_src" format="dimension" />
+        <attr name="head_back_title" format="string" />
+        <attr name="head_back_color" format="dimension" />
         <attr name="head_right_title" format="string" />
         <attr name="head_right_src" format="dimension" />
         <attr name="head_right_color" format="dimension" />
+        <attr name="head_left_multi" format="boolean" />
         <attr name="head_right_multi" format="boolean" />
         <attr name="head_bg_src" format="dimension" />
     </declare-styleable>
