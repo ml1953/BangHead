@@ -7,10 +7,6 @@ import java.lang.reflect.Method;
 import static com.ly.banghead.bangtools.BangScreenTools.TAG;
 
 
-/**
- * Created by 易庞宙 on 2018 2018/10/16 11:21
- * email: 1986545332@qq.com
- */
 public class SystemProperties {
     private static Method getStringProperty;
     private static SystemProperties single;

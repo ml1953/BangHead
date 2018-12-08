@@ -19,10 +19,6 @@ import static android.view.View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN;
 import static android.view.View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION;
 import static android.view.View.SYSTEM_UI_FLAG_LAYOUT_STABLE;
 
-/**
- * Created by 易庞宙 on 2018 2018/10/16 09:59
- * email: 1986545332@qq.com
- */
 public class BangScreenTools {
 
     private static BangScreenTools bangScreenTools;
