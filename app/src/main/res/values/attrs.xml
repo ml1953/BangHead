@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BangHead">
+        <attr name="head_title" format="string" />
+        <attr name="head_title_color" format="dimension" />
+        <attr name="head_back_src" format="dimension" />
+        <attr name="head_right_title" format="string" />
+        <attr name="head_right_src" format="dimension" />
+        <attr name="head_right_color" format="dimension" />
+        <attr name="head_right_multi" format="boolean" />
+        <attr name="head_bg_src" format="dimension" />
+    </declare-styleable>
+</resources>
