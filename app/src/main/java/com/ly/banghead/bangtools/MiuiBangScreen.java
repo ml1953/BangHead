@@ -16,10 +16,6 @@ import java.util.List;
 import static com.ly.banghead.bangtools.BangScreenTools.TAG;
 
 
-/**
- * Created by 易庞宙 on 2018 2018/10/16 15:10
- * email: 1986545332@qq.com
- */
 public class MiuiBangScreen implements BangScreenSupport {
     @RequiresApi(api = Build.VERSION_CODES.O)
     @Override

@@ -15,9 +15,9 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.ly.banghead.R;
+import com.ly.banghead.bangtools.BangScreenTools;
 import com.ly.banghead.listener.OnBackClickListener;
 import com.ly.banghead.listener.OnRightClickListener;
-import com.ypz.bangscreentools.BangScreenTools;
 
 public class HeadView extends LinearLayout {
     boolean multi = false;//是否有多个

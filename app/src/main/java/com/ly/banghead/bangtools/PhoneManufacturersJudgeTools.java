@@ -3,10 +3,6 @@ package com.ly.banghead.bangtools;
 import android.os.Build;
 import android.text.TextUtils;
 
-/**
- * Created by 易庞宙 on 2018 2018/10/16 11:10
- * email: 1986545332@qq.com
- */
 public class PhoneManufacturersJudgeTools {
 
     private static PhoneManufacturersJudgeTools PMJTools;
